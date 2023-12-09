@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(80,72,72,0.4),rgba(80,72,72,0.4)) ,url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #999;
+}
+.button-box{
+    width: 212px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1b08081f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;   
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(42, 153, 153),#1f06ff);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 50px 0 #fa0e0e3d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin: 0 auto;
+}
+.input-filter{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #685c5c;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(42, 153, 153),#1f06ff);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #3d1515;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}

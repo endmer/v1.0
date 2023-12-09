@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirish yoki Ro'yhatdan o'tish</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="shortcut icon" href="ico.png">
+</head>
+<body>
+    
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="log()">Kirish</button>
+                <button type="button" class="toggle-btn" onclick="reg()">Yangi ac</button>
+            </div>
+            <div class="social-icons">
+                <img src="./fb.png" alt="">
+                <img src="./tg.png" alt="">
+                <img src="./yt.png" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text"class="input-filter" placeholder="ID">
+                <input type="password"class="input-filter" placeholder="Parol">
+                <input type="checkbox" class="check-box"> 
+                <span>Meni Eslab Qol</span>
+                <button type="submit" class="submit-btn">Kirish</button>
+            </form>
+            <!-- Registor  -->
+            <form id="register" class="input-group">
+                <input type="text"class="input-filter" placeholder="ID">
+                <input type="email" class="input-filter" placeholder="Email" >
+                <input type="password"class="input-filter" placeholder="Parol">
+                <input type="checkbox" class="check-box"> 
+                <span>Meni Eslab Qol</span>
+                <button type="submit" class="submit-btn"><a href="https://youtube.com">Ro'yhatdan O'tish</a></button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const logIn = document.querySelector('#login'),
+                register = document.querySelector('#register'),
+                btn = document.querySelector('#btn');
+
+        function reg(){
+            logIn.style.left = '-400px';
+            register.style.left = '50px';
+            btn.style.left = '110px';
+        }
+        function log(){
+            logIn.style.left = '50px';
+            register.style.left = '450px';
+            btn.style.left = '0px';
+        }
+    </script>
+
+</body>
+</html>
